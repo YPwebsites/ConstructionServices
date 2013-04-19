@@ -1,12 +1,4 @@
-@import url("gfx/wp-skeleton.css"); /* Upload stylesheet to GFX folder */
-
-@font-face {
-	font-family: "Bauer Bodoni";
-	src: url("gfx/bbr____.ttf"),
-		 url("gfx/bbi____.ttf"),
-		 url("gfx/bbb____.ttf"),
-		 url("gfx/bbbi___.ttf");
-}
+@import url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/wp-skeleton.css"); /* Upload stylesheet to GFX folder */
 
 
 header, footer, nav, section, article {display: block;}
@@ -21,7 +13,7 @@ body {
 	}
 	body#mysite { 
 		/* Set background image POSITION and REPEAT here! */
-		background-image:url("gfx/bodyBG.jpg");
+		background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/bodyBG.jpg");
 		background-repeat: repeat;	
 		}
 		
@@ -36,7 +28,7 @@ body {
 h1, h1 span, h1 font span,
 h2, h2 span, h2 font span, 
 h3, h3 span, h3 font span {
-	font-family: "Bauer Bodoni", Georgia, "Times New Roman", Times, serif;
+	font-family:  Georgia, "Times New Roman", Times, serif;
 }
 h4, h4 span, h4 font span, 
 h5, h5 span, h5 font span, 
@@ -91,7 +83,56 @@ address {
 	font-size : 13px; /* 16 / 16 = 1 */ 
 	line-height: 18px;
 	}
-	
+div {
+font-size : 13px; /* 16 / 16 = 1 */ 
+	line-height: 18px;
+}	
+
+/*
+Light Color Scheme: enter dark font color here;
+Dark Color Scheme: enter light font color here;
+*/
+div.reviewItem,
+div.freetextarea, 
+label, 
+div.rss, 
+div#ReviewsWidget, 
+p.figcaption, 
+div.opening-hours-widget-wrapper, 
+div#opening-hours-comments, 
+div#containingBlock, 
+div.calc-input-container, 
+div.calc-input-container span {
+	 color: #000;
+}
+
+/* Controller Widgets (Accordions/Tabs/Spotlight Widgets) */
+div.ui-widget-content div.freetextarea,
+div.ui-widget-content div.reviewItem, 
+div.ui-widget-content div.freetextarea, 
+div.ui-widget-content label, 
+div.ui-widget-content div.rss, 
+div.ui-widget-content div#ReviewsWidget, 
+div.ui-widget-content p.figcaption, 
+div.ui-widget-content div.opening-hours-widget-wrapper, 
+div.ui-widget-content div#opening-hours-comments, 
+div.ui-widget-content div#containingBlock, 
+div.ui-widget-content div.calc-input-container, 
+div.ui-widget-content div.calc-input-container span,
+div.diy-f-spot div.freetextarea,
+div.diy-f-spot div.reviewItem, 
+div.diy-f-spot div.freetextarea, 
+div.diy-f-spot label, 
+div.diy-f-spot div.rss, 
+div.diy-f-spot div#ReviewsWidget, 
+div.diy-f-spot p.figcaption, 
+div.diy-f-spot div.opening-hours-widget-wrapper, 
+div.diy-f-spot div#opening-hours-comments, 
+div.diy-f-spot div#containingBlock, 
+div.diy-f-spot div.calc-input-container, 
+div.diy-f-spot div.calc-input-container span {
+	color: #000;
+}
 
 
 ul, 
@@ -131,6 +172,7 @@ blockquote  {
     font: italic bold 21px/30px Georgia,"Times New Roman",Times,serif;
     margin: 0;
     padding: 20px 0;
+    text-align: center;
 	}
 
 blockquote:before, 
@@ -175,7 +217,7 @@ br {
 	font-size: 18px;	
 }
 
-#content-area hr { 
+#contenthr { 
 	border: solid #d9d9d9; 
 	border-width: 1px 0 0;
 	clear: both;
@@ -269,12 +311,12 @@ h2.page-title {
 	font-size: 30px;
 	line-height: 48px;	
 	margin: 0px;
-	padding: 0 0 0 15px;
+	padding: 0 0 0 10px;
 	border-left: 1px solid #d9d9d9;
 	border-right: 1px solid #d9d9d9;
 }
 
-#content-area {
+#content {
 	padding:15px 0px 0px 0px;
 	min-height:100px;
 	background-color: #fff;
@@ -282,7 +324,7 @@ h2.page-title {
 }
 div#contentShadow {
 	height: 18px;
-	background-image: url("gfx/contentAreaShadow.png");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/contentAreaShadow.png");
 	background-position: top center;
 	background-repeat: no-repeat;
 	margin: 0 0 18px 0;	
@@ -301,7 +343,7 @@ div#contentShadow {
 	color:#ffdd44;
 	text-align:left;
 	text-transform:capitalize;
-	font: italic bold 40px/40px "Bauer Bodoni", Georgia, "Times New Roman", Times, serif 
+	font: italic bold 40px/40px  Georgia, "Times New Roman", Times, serif 
 	}
 	
 	
@@ -336,7 +378,7 @@ div#contentShadow {
 }
 
 #header-image-container {
-	background-image:url("gfx/header-image-wrapper960.png");
+	background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/header-image-wrapper960.png");
 	background-position: top left;
 	background-repeat:no-repeat;
 	padding: 0px 0px 14px 0px;
@@ -357,7 +399,7 @@ img#siteMainDynHeaderImage1 {
     /* Tablet Portrait size to standard 960 (devices and browsers) */
     @media only screen and (min-width: 768px) and (max-width: 959px) {
 		#header-image-container {
-			background-image: url("gfx/header-image-wrapper768.png");
+			background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/header-image-wrapper768.png");
 		}
 		img#siteMainDynHeaderImage1 { 
 			height: 266px;
@@ -367,7 +409,7 @@ img#siteMainDynHeaderImage1 {
 			height: 227px;	
 		}
 		div#contentShadow {
-			background-image: url("gfx/contentAreaShadow768.png");
+			background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/contentAreaShadow768.png");
 			padding: 0 0 8px;	
 		}
 	}
@@ -384,11 +426,11 @@ img#siteMainDynHeaderImage1 {
 			width: 408px;
 		}
 		#header-image-container {
-			background-image: url("gfx/header-image-wrapper420.png");
+			background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/header-image-wrapper420.png");
 			padding: 0 0 6px;
 		}
 		div#contentShadow {
-			background-image: url("gfx/contentAreaShadow420.png");	
+			background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/contentAreaShadow420.png");	
 		}
 		#phone-number {
 			margin: 0 0 18px;	
@@ -407,11 +449,11 @@ img#siteMainDynHeaderImage1 {
 			width: 288px;
 		}
 		#header-image-container {
-			background-image: url("gfx/header-image-wrapper300.png");
+			background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/header-image-wrapper300.png");
 			padding: 0 0 6px;
 		}	
 		div#contentShadow {
-			background-image: url("gfx/contentAreaShadow300.png");	
+			background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/contentAreaShadow300.png");	
 		}
 		#phone-number {
 			margin: 0 0 18px;
@@ -552,7 +594,7 @@ ul#nav {
 		top:5px;
 		right:5px;
 		z-index: 800;
-		background-image:url("gfx/icon-menu.png");
+		background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/icon-menu.png");
 		background-repeat:no-repeat;
 		background-position:top left;
 		background-color:#333;
@@ -613,12 +655,10 @@ ul#nav {
 			color: #fff;
 			border-bottom: 1px solid #0F0F0F;
     		border-top: 1px solid #5A5A5A;
-			
-   
-    
-    
-   
+
 			}
+			
+			
 			
 		/* yes, you can combine the bottom two styles if you would like or need to */	
 		#m-menu ul#nav li.current a {
@@ -628,7 +668,12 @@ ul#nav {
 		#m-menu ul#nav li a:hover {
 			color: #FFDD44;
 			}
-			
+		#m-menu ul#nav li a:hover,
+		#m-menu ul#nav li a:active,
+		#m-menu ul#nav li a:focus {
+			background-color: #ffdd44;
+			color: #333333;
+		}	
 		/* second level dropdown */	
 		#m-menu ul#nav li ul { /* second-level lists */
 			position: relative;
@@ -651,6 +696,7 @@ ul#nav {
 		#m-menu ul#nav li ul li a:hover, #m-menu ul#nav li.current ul li a:hover { /* second level dropdown button hover state */	
 			
 			color:#FFDD44;
+
 			}
 		
 						#m-menu ul#nav li ul li ul li a, #m-menu ul#nav li.current ul li ul li a { /* third level dropdown buttons */
@@ -721,18 +767,6 @@ div#footer-area {
 	padding: 0;
 	margin: 0;
 	font-size: 12px;	
-}
-
-@media only screen and (max-width: 767px) {
-	ul#mirror-menu-module li {
-		float: none;
-		list-style: none;
-		text-align: center;
-		display: inline;
-	}
-	div#footer-area {
-		text-align: center;	
-	}
 }
 
 
@@ -960,35 +994,36 @@ div.unit-calc li.unit-menu ul.unit-type li a:hover {
     top:0px; 
     left:0px;
     width:100%;
-    height:30px;
+    height:50px;
 }
 .widget-popup-content{
     display:inherit;
     overflow:hidden; 
     position:absolute; 
-    top:30px; 
+    top:50px; 
     left:0px;
     width:100%;
     height:420px;
     display:inherit;
 }
-.widget-button{
-	font: bold italic 30px/44px "Bauer Bodoni", Georgia, "Times New Roman", Times, serif;
+.widget-button {
+	font: bold italic 30px/44px  Georgia, "Times New Roman", Times, serif;
 	width:100%; 
 	height:auto; 
 	text-align:center;  
 	z-index:1001;
 	-moz-border-radius:10px;
-    -webkit-border-radius:10px;
-    border-radius:10px;
+    	-webkit-border-radius:10px;
+    	border-radius:10px;
 	background-color: #d9d9d9;
 	color: #333;
-	}
+}
 	
-div.widget-button:hover{
+div.widget-button:hover,
+div#close_map:hover {
 	cursor:pointer;
 	background-color:#FFDD44;
-	}
+}
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .widget-popup{
@@ -1036,7 +1071,7 @@ div.widget-button:hover{
 	height: 46px;
 	display: block;
 	margin-bottom: 7px;
-	background: #ddd url("gfx/back-to-top.png") no-repeat center center;
+	background: #ddd url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/back-to-top.png") no-repeat center center;
 	/* rounded corners */
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -1119,7 +1154,7 @@ a.m-click-phone span, a.m-click-mail span, a.m-click-map span {
 	overflow:hidden;
 	text-align:center;
 	margin:0 auto;
-	background-image: url("gfx/mobile-panel-icons.png");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_3/33/335/240/gfx/mobile-panel-icons.png");
 	background-repeat:no-repeat;
 	display:block;
 	padding:0px;
@@ -1164,6 +1199,36 @@ a.m-click-map span{
 		}	
 /* end mobile quick nav buttons */
 
+/* --------------- Websplanet widget fixes --------------- */
+/* Websplanet mobile fixes */
+form ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+nav#menu ul li a.hover {
+	
+}
+/* footer data link */
+a.websplanet {
+	color: #fff;
+	text-decoration: underline;
+}
+.footerLinks {
+    float: right;
+    text-align: left;
+}
+@media screen and (max-width: 767px) {
+	.footerLinks {
+		float: none;
+	}
+}
+.footerText {
+	display: none; /* these are just empty spans in the footer area, display none lets .addthis_toolbox to be aligned properly */
+}
+.addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m {
+	margin-top: 4px;
+}
 /* ---------- Start UI styling fixes ---------- */
 .ui-widget-content a {
 	color: #DD8800; /* match <a> color */
@@ -1207,7 +1272,7 @@ div.reviewBody {
 
 
 div[type=rss_widget] > div.widget-body > div { /* match h3 styling; requires !important */
-	font: 18px/21px "Bauer Bodoni", Georgia, Times, serif !important;
+	font: 18px/21px  Georgia, Times, serif !important;
 	
 }
 div[type=rss_widget] ul { /* remove indent; requires !important */
@@ -1246,6 +1311,7 @@ label {
 	margin-right: 2% !important; /* defaut is 0 and has no space between inputs (first and last names) */
 }
 
+
 /* Calculators */
 div.calc-input-container input[type=text] { /* remove styled margin-bottom, it pushes sub-labels down */
 	margin-bottom: 0 !important;
@@ -1256,16 +1322,258 @@ div.calc-input-container {
 div.unit-results ul li input { /* fix width */
 	width: 97%;
 }	
+
+li.calc-param-row label {
+  padding: 0 0 5px;
+}
+
+li.calc-param-row, li.calc-instruction-row, li.calc-resault-row 
+  {height:auto !important; margin-bottom:5px;}
+
+li.calc-param-row div.calc-input-container, li.calc-resault-row div.calc-input-container {
+  clear: left;
+  float: left;
+}
+
+
+.calculator-btn {float:left;}
+
+/* weight calculator */
+
+div.calories-calc div.calc-input-container span.small {display:none;}
+
+div.calc-input-container #weight_kg, div.calc-input-container #cen {display:none;}
+
+div.calc-input-container span.or {display:none !important;}
+
+div.calories-calc div.calc-input-container input[type="radio"] {
+  border: 0px solid #AACFE4;
+
+}
+
+/* conversion calculator */
+
+div.unit-calc li.unit-menu ul.unit-type {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+div.unit-calc li.unit-menu ul.unit-type li {
+  clear: none !important;
+  display: block;
+  float: left; 
+  text-align: center;
+  font-size: 10px;
+  width:auto !important;
+}
+
+div.unit-calc li.unit-menu ul.unit-type li a {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #E6E6E6;
+  background-image: linear-gradient(#FFFFFF, #FFFFFF 25%, #E6E6E6);
+  background-repeat: no-repeat;
+  border-color: #CCCCCC #CCCCCC #BBBBBB;
+  border-image: none;
+  border-radius: 4px 4px 4px 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 5px 8px;
+  transition: all 0.1s linear 0s;
+  display: inline;
+  margin: 2px 5px;
+  text-decoration:none;
+  color: #333333;
+  line-height: normal;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+} 
+
+div.unit-calc li.unit-menu ul.unit-type li a.active, div.unit-calc li.unit-menu ul.unit-type li a:hover {
+	 background-image: linear-gradient(#d7d7d7, #d7d7d7 25%, #c7c7c7 );
+	 color:#000;
+	 text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.75);
+     text-decoration:none;
+	}
+
+/* results */
+ li.calc-resault-row label {
+  padding: 5px 0;
+  width:100% !important;
+}
+
+/* clock fix*/
+.big-clock {
+  font-size: 30px !important;
+}
+/* ----- new (3-13-13) websplanet widget fixes ----- */
+div.opening-hours-comments {
+	font-size: 13px; /* match paragraph style */
+	line-height: 18px;
+}
+div.diy-f-spot {
+	margin: 10px; /*match other widgets and keeps with the grid */
+}
+div.facebook-like-box iframe {
+    width: 100% !important; /* this fixes the facebook box's overflowing issue */
+}
+.form-manager-mobile li {
+	margin-bottom: 12px !important;
+}
+/* ----- new (3-13-13) framework additions ----- */
+div#close_map { /* match .widget-button styling */
+	font: bold italic 30px/44px  Georgia, "Times New Roman", Times, serif;
+	width:100%; 
+	height:auto; 
+	text-align:center;  
+	z-index:1001;
+	-moz-border-radius:10px;
+    	-webkit-border-radius:10px;
+    	border-radius:10px;
+	background-color: #d9d9d9;
+	color: #333;
+}
+.widget-popup-control-bar {
+	height: 50px; /* more room for bigger close button */
+}
+.widget-popup-content {
+	top: 50px;  /* more room for bigger close button */
+}
+@media only screen and (max-width: 767px) {
+	ul#mirror-menu-module li {
+		float: none;
+		list-style: none;
+		text-align: center;
+		display: inline-block;
+	}
+	div#footer-area {
+		text-align: center;	
+	}
+}
+
 /* --------------- end Websplanet widget fixes --------------- */
 
 
 @media only screen and ( max-width: 767px ) {
-	div.vertical div.horizontal div.vertical {
+/*	div.vertical div.horizontal div.vertical {
 		width: 100% !important;	
-	}
+	}	*/
 }
 
 div.image_wrapper {
 	padding: 3px 3px 2px 3px;
 	border: 1px solid #d9d9d9;	
+}
+
+div.qrcode img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #d9d9d9;
+}
+
+/* MODULE STYLING 4/4/2013 */
+.Events_item_date {
+    padding-top: 6px;
+}
+.Events_item_title a {
+    font-size: 21px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.Events_item_title a:hover {
+	text-decoration: underline;
+}
+#FAQ_category_list li a,
+#FAQ_category_list li a:visited {
+    background-color: #D9D9D9; /* replace with theme color */
+    border-radius: 10px 10px 10px 10px;
+    height: auto;
+    text-align: center;
+    width: auto;
+    z-index: 1001;
+    color: #333333;
+    border: none;
+    font: italic bold 30px/44px Georgia,"Times New Roman",Times,serif;/* replace with theme fonts */
+}
+#FAQ_category_list li a:hover,
+#FAQ_category_list li a:active {
+	 cursor:pointer;
+
+	background: #FFDD44; /* replace with theme color */
+    filter: progid:DXImageTransform.Microsoft.gradient( enabled=false );
+}
+ul#FAQ_category_list span {
+	margin: 0 12px 24px;
+}
+div.jobs-desc p {
+    padding: 10px;
+}
+/* for sites with dark backgrounds, the job desciption text gets lost as it is inline styled to be a dark color by default 
+div.jobs-desc {
+    background-color: #fff;
+    background-color: rgba(255,255,255, .75);
+
+}
+ul#FAQ_category_list span p {
+    padding: 10px;
+    background-color: #fff;
+        background-color: rgba(255,255,255, .75);
+}
+ul#FAQ_category_list span p span {
+    margin: 0;
+}
+*/
+/* end dark background module fixes */
+.jobs-title,
+.jobs-title:hover {
+    background: none;
+    border: none;
+        font-family: Verdana,​Geneva,​sans-serif; /* replace with theme fonts */
+        font-size: 24px;
+        padding-left: 0px;
+        color: #000; /* replace with theme color */
+}
+.jobs-title a:hover,
+.jobs-title a:focus,
+.jobs-title a:active {
+	text-decoration: underline;
+}
+
+.jobs-apply a {
+    background-color: #D9D9D9; /* replace with theme color */
+    border-radius: 10px 10px 10px 10px;
+    height: auto;
+    text-align: center;
+    width: auto;
+    z-index: 1001;
+    color: #333333;
+    border: none;
+    font: italic bold 30px/44px Georgia,"Times New Roman",Times,serif;/* replace with theme fonts */
+}
+.jobs-apply a:hover,
+.jobs-apply a:active,
+.jobs-apply a:focus {
+    cursor:pointer;
+
+	background: #FFDD44; /* replace with theme color */
+    filter: progid:DXImageTransform.Microsoft.gradient( enabled=false );
+}
+ul#FAQ_category_list {
+    margin: 0;
+}
+ul#FAQ_category_list li a {
+    width: 98%;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+	clear: left;
+}
+div#Events_full_item {
+    padding: 0 15px;
 }
