@@ -1,0 +1,41 @@
+/* Canvas Module */
+
+div.vertical{ width: auto }
+div.horizontal{ width: auto }
+
+div.horizontal div.vertical{ float: left;  }
+
+div.widget-wrapper{ }
+
+div.clearfix {
+	display: block;
+	clear: both;
+}
+.diy-f-accordion h3{
+	padding: 0.5em 0 0.5em 2.2em;
+}
+.diy-f-tabs-inner.ui-tabs .ui-tabs-panel,
+.diy-f-accordion-inner.ui-accordion .ui-widget-content{
+	padding: 0;
+	margin: 0;
+}
+
+
+.diy-f-accordion-inner.ui-accordion .ui-accordion-content {
+	overflow:visible;
+
+}
+.diy-f-accordion .widget-wrapper{
+	margin-top:0 ;
+}
+@media (max-width: 480px){
+/* spliter fix */
+  .vertical{
+    clear:both !important;
+    float:none !important;
+    width:100% !important;
+  }
+  .freetext-image.resize-wrapper{
+	width: 100%!important;
+	}
+}
